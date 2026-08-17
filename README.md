@@ -16,6 +16,3 @@ A modern full-stack web application for discovering and sharing meal recipes, bu
 
 ## ⚙️ Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/nain-coder/Next.js-The-Foodie-App.git](https://github.com/nain-coder/Next.js-The-Foodie-App.git)
