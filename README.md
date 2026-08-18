@@ -11,7 +11,6 @@ A modern full-stack web application for discovering and sharing meal recipes, bu
 ## 🛠️ Tech Stack
 * **Framework:** Next.js (App Router)
 * **Language:** JavaScript / React
-* **Database:** SQLite / better-sqlite3
 * **Styling:** CSS Modules
 
 
