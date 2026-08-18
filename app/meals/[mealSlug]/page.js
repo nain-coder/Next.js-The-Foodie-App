@@ -3,15 +3,13 @@ import classes from "./page.module.css";
 import { getMeal } from "@/lib/meals";
 import { notFound } from "next/navigation";
 
-export default async function MealDetailPage({ params }) {
-  const { mealSlug } = await params;
-  const meal = getMeal(mealSlug);
+export default function MealDetailPage({ params }) {
+  const meal = getMeal(params.mealSlug);
+  meal.instructions = meal.instructions.replace(/\n/g, "<br />");
 
   if (!meal) {
     notFound();
   }
-
-  meal.instructions = meal.instructions.replace(/\n/g, "<br />");
 
   return (
     <>
